@@ -106,6 +106,7 @@ ul {
 .white-background .collection {
     display: flex;
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .collection .one,
@@ -124,6 +125,26 @@ ul {
 
 .collection .subtext {
     margin-top: 8px;
-    color: #707275;
+    color: #525252;
     font-size: 18px;
 }
+
+.gray-background {
+    background-color: #E5E7EB;
+    padding: 5% 36% 5% 36%;
+}
+
+.gray-background .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.gray-background .quote-author {
+    margin-left: 60%;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
