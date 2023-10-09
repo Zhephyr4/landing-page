@@ -21,7 +21,7 @@ ul {
     padding-top: 16px;
     padding-left: 32%;
     padding-right: 32%;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .header {
@@ -49,7 +49,7 @@ ul {
 
 .below-header {
     display: flex;
-    gap: 16px;
+    gap: 34px;
 }
 
 .text-content {
@@ -87,5 +87,43 @@ ul {
     padding: 16px;
     flex: 1;
     color: #d6d6d6;
+    font-size: 18px;
+}
+
+.white-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 36% 50px 36%;
+}
+
+.white-background .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.white-background .collection {
+    display: flex;
+    gap: 32px;
+}
+
+.collection .one,
+.collection .two,
+.collection .three,
+.collection .four {
+    text-align: center;
+}
+
+.blue-box {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin: 0;
+    height: 150px;
+}
+
+.collection .subtext {
+    margin-top: 8px;
+    color: #707275;
     font-size: 18px;
 }
